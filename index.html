@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <title>Mizukazu Portfolio</title>
+
+    <!-- 文字コード -->
+    <meta charset="UTF-8">
+
+    <!-- リセットCSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/skeleton-grid.css">
+
+    <!--JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://unpkg.com/ityped@0.0.5"></script>
+    <!-- <script src="js/t-scroll/t-scroll.min.js"></script> -->
+
+    <!-- View Port -->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </head>
+  <body>
+
+    <!-- Header -->
+    <div class="container">
+      <div class="row">
+        <header class="header twelve columns">
+          <h1 class="#">Mizukazu Portfolio</h1>
+          <span id="ityped"></span>         
+        </header>
+      </div>
+
+      <!-- Introduction -->
+      <div class="row">
+        <div class="box-container animate">
+          <div class="profile-box six columns">
+            <h2 class="text-center"><i class="fas fa-user fa-fw"></i>Profile</h2>              
+              <ul class="profile-list">
+                <li>名前:みずかず</li>
+                <li>Lv:24</li>
+                <li>職業:プログラマー</li>
+                <li>趣味:釣り(バス・海釣り)</li>
+                <li>似ている動物:カピバラ</li>
+              </ul>
+          </div>
+        </div>
+      </div>
+      
+      <div class="skill-box six columns animate">
+        <h2 class="text-center"><i class="fas fa-magic fa-fw"></i>Skills</h2>
+          <ul class="skill-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>C#</li>
+            <li>JavaScript</li>
+            <li>PHP</li>
+          </ul>
+      </div>
+
+      <!-- Production -->
+      <div class="row">
+        <div class="production-box twelve columns animate">
+          <h2 class="text-center">Product</h2>
+          <p class="text-center">
+            制作したWebサイトやツールなどを載せていきます。<br>
+            下記リンクから成果物一覧に飛ぶことが出来ます。<br>
+            <!-- ----- 現在準備中 ----- -->
+            <a class="product-button" href="./product-page.html">成果物を見る</a>
+          </p>             
+        </div>
+      </div>
+    
+      <!-- Blog -->
+      <div class="row">
+        <div class="blog-box twelve columns animate">
+          <h2 class="text-center">Blog</h2>
+          <p class="text-center">
+            技術メインの雑記ブログを運営しています。<br>
+            興味がある方は是非読んでいってください。<br>
+            <a class="blog-link blog-btn" href="https://mizukazu.com">みずかず式！</a>             
+          </p>             
+        </div>
+      </div>
+
+      <!-- Contact -->
+      <div class="row">
+        <div class="contact-box twelve columns animate">
+          <h2 class="text-center">Contact</h2>
+          <p class="text-center">
+              連絡はこちらからお願いします。<br>
+              24時間以内にお返事いたします！
+              <div class="sns-box text-center">
+                <span class="fab fa-twitter fa-fw fa-lg"></span><a class="link twitter-link" href="https://twitter.com/mizukazu_1">Twitter</a><br>
+                <span class="fas fa-envelope fa-fw fa-lg mt-1"></span><a class="link mail-link" href="mailto:mizukazu.work&#64;gmail.com">Mail</a>
+              </div>
+          </p>             
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="row">
+        <footer class="text-center">
+            <p>&copy; 2019	Mizukazu Portfolio</p>
+        </footer>
+      </div>
+    </div>
+    <script src="js/ityped.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,207 @@
+/* Webフォント読み込み */
+@font-face {
+	font-family: PixelMplus10-Regular;
+	src: url('../font/PixelMplus10-Regular.ttf') format("truetype");
+}
+/**********************************************************************/
+
+/* タイプライターのカーソル部分 */
+.ityped-cursor {
+  font-size: 2.2rem;
+  opacity: 1;
+  -webkit-animation: blink 0.3s infinite;
+  -moz-animation: blink 0.3s infinite;
+  animation: blink 0.3s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes blink {
+  100% {
+      opacity: 0;
+  }
+}
+
+@-webkit-keyframes blink {
+  100% {
+      opacity: 0;
+  }
+}
+
+@-moz-keyframes blink {
+  100% {
+      opacity: 0;
+  }
+}
+/*********************************************/
+
+html,body{
+  font-family: PixelMplus10-Regular;
+  background-color: black;
+  color: white;
+}
+
+h1{
+  font-size: 3rem;
+}
+
+h2{
+  font-size: 2rem;
+}
+
+#ityped{
+  font-size: 2rem;
+}
+
+.header{
+  margin: 2%;
+}
+
+.header{
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.profile-box,
+.skill-box{
+  border: 1px solid white;
+  height: 250px;
+  border-radius: 5px;
+  margin-bottom: 15%;
+}
+
+.blog-box,
+.production-box,
+.contact-box{
+  border: 1px solid white;
+  height: 270px;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  margin-bottom: 15%;
+}
+
+.product-button {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.product-button::before {
+  content: "▷";
+}
+.product-button:hover {
+  opacity: 0.6;
+}
+
+.skill-list {
+  display: flex;
+  justify-content: center;
+  margin-right: 30px;
+}
+
+.blog-box{
+  height: 280px;
+}
+
+.profile-list,
+.skill-list{
+  list-style: none;
+}
+
+.profile-list,
+.skill-list > li{
+  margin: 3%;
+  font-size: 1.1rem;
+}
+
+.blog-link{
+  display: inline-block;
+  text-decoration: none;
+  color: #ccffff;
+  font-size: 1.3rem;
+  margin-top: 3%;
+}
+.blog-link:hover{
+  color: #ffff89;
+  opacity: 0.8;
+}
+
+.twitter-link{
+  color: #99ccff;
+}
+
+.mail-link{
+  color: #ffb2b2;
+}
+
+.blog-btn{
+  width:200px;
+  font-size:24px;
+  font-weight:bold;
+  text-decoration:none;
+  display:inline-block;
+  text-align:center;
+  padding:8px 0 10px;
+  padding-left: 15px;
+  color:skyblue;
+  border:3px solid #FFF;
+  border-radius: 8px;
+}
+
+.footer{
+  position: relative;
+  bottom: 0;
+  width: 100vw;
+  height: 200px;
+  border-top: 1px solid #fff;
+}
+
+/********** 汎用CSS **********/
+.text-center{
+  text-align: center;
+}
+
+.mt-1{
+  margin-top: 1%;
+}
+
+.mt-2{
+  margin-top: 2%;
+}
+
+.mt-3{
+  margin-top: 3%;
+}
+
+.mt-4{
+  margin-top: 4%;
+}
+
+.mt-5{
+  margin-top: 5%;
+}
+
+.link{
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.3rem;
+  margin-top: 3%;
+}
+.link:hover{
+  opacity: 0.6;
+}
